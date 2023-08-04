@@ -1,0 +1,8 @@
+TypeScript é open source.
+Tipagem estática.
+
+2) 
+Para compilar o codigo: 
+1) eu gerei um tsconfig.json com o comando tsc --init. 
+2) Transpilar (converter o código TypeScript em código JavaScript) o arquivo app.ts para app.js com ctrl + shift + b, isso gerou um arquivo js. 
+3) Depois eu digitei node .\app.js para aparecer a compilação do console.log
