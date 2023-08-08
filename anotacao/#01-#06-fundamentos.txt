@@ -1,0 +1,23 @@
+TypeScript é open source.
+Tipagem estática.
+
+JavaScript: dinamicamente tipada;
+TypeScript: tipagem estática/altamente tipado
+
+Para compilar o codigo: 
+1) eu gerei um tsconfig.json com o comando tsc --init. 
+2) Transpilar (converter o código TypeScript em código JavaScript) o arquivo app.ts para app.js com ctrl + shift + b (tsc build ou tsc watch), isso gerou um arquivo js. 
+3) Depois eu digitei "node .\app.js" para aparecer a compilação do console.log
+
+tsc:
+O comando tsc watch inicia o compilador TypeScript em modo de observação (watch mode). Isso significa que o 
+compilador irá monitorar os arquivos do projeto e, sempre que houver alguma alteração em um arquivo TypeScript, 
+ele será recompilado automaticamente para JavaScript. Esse modo é muito útil durante o desenvolvimento, 
+pois permite que você faça alterações no código e veja os resultados imediatamente sem precisar chamar o 
+compilador manualmente a cada vez. É uma forma de compilar incrementalmente enquanto se trabalha no projeto.
+
+O comando tsc build é utilizado para realizar uma compilação única de todo o projeto TypeScript para JavaScript. 
+Diferente do modo de observação, esse comando não fica aguardando alterações nos arquivos; ele apenas executa a 
+compilação uma vez e encerra. É útil quando você deseja gerar a versão final do código para implantação em 
+produção, por exemplo, ou quando você quer garantir que não haja erros de compilação antes de enviar seu código 
+para um repositório de controle de versão.

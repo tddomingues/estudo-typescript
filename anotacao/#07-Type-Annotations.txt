@@ -1,0 +1,5 @@
+TS é uma linguagem altamente tipado
+
+Type Annotations: serve para evitar erros; dá ao copilador o tipo da variável.
+
+Exemplo: let nomeVariavel: TypeAnnotation = valor 
